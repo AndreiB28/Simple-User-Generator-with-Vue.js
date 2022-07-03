@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #a9a5a2;
+}
+
+#app {
+  width: 400px;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1,
+h3,
+h4 {
+  margin-bottom: 1rem;
+  font-weight: normal;
+}
+
+img {
+  border-radius: 50%;
+  border: 3px #333 solid;
+  margin-bottom: 1rem;
+}
+
+.male {
+  border-color: steelblue;
+  background-color: steelblue;
+  color: #fff;
+}
+
+.female {
+  border-color: rebeccapurple;
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 22px;
+  background: #333;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  padding: 1rem 1.5rem;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  transform: scale(0.97);
+}
